@@ -1,0 +1,29 @@
+.row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.one ,.two, .three, .four,.five,.six,.seven,.eight,.nine,.ten,.eleven,.twelve {
+    background-color: rgb(207, 78, 64);
+    height: 70px;
+    border: 1px solid white;
+    text-align: right;
+}
+.one , .two ,.three, .four, .six  ,.twelve{
+    flex-grow: 1;
+}
+.five , .ten {
+    flex-grow: 5;
+}
+.seven {
+    flex-grow:7 ;
+}
+.eight {
+    flex-grow:2 ;
+}
+.nine {
+    flex-grow: 3;
+}
+.eleven {
+    flex-grow: 11;
+}
